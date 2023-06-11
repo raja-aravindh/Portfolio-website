@@ -53,6 +53,27 @@
         </p>
 
         <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2 featurette-content">
+            <h2 class="featurette-heading">Tool Parameters:</h2>
+            <p class="lead">
+              <b>From raster: </b>It is the initial raster before the particular event or time period. <br />
+              <b>To raster: </b>Final raster after the of the event. <br />
+              <b><u>Parameter with default values:</u></b> <br>
+              <b>Output raster: </b>The file path and name of the output raster. <br />
+              <b>Filter Method: </b>To specify the type of changes to be incorporated in the output raster (All, Changed only & Unchanges only). <br />
+              <b>From & To Class(es): </b>To specify the classes that should be used while computing changes. <br />
+              <b>Classname Field: </b>To specify the class name field of input rasters.
+            </p>
+          </div>
+          <div class="col-md order-md-1 featurette-img">
+            <img class="project-img" src="../public/images/parameters1.png" width="300" height="450" alt="To Raster">
+          </div>
+      </div>
+  
+      <hr class="featurette-divider">
+
         <div class="row featurette">
           <div class="col-md-7 featurette-content">
             <h2 class="featurette-heading">Input Raster 1: <span class="text-muted">(From Raster)</span></h2>
@@ -73,7 +94,7 @@
                 The To-Raster is the end raster or final raster after the particular event. In this case LULC raster of Tirrupur city of the year 2021 has been used as To-Raster. Both the input rasters (From and To Rasters) have four LULC classes namely Builtup, Barrenland, Vegetation and Waterbodies.
             </p>
           </div>
-          <div class="col-md-5 order-md-1 featurette-img">
+          <div class="col-md order-md-1 featurette-img">
             <img class="project-img" src="../public/images/to_raster1.png" width="300" height="350" alt="To Raster">
           </div>
         </div>
@@ -87,30 +108,14 @@
                 Once we have given two input rasters as parameters while leaving other parameters unchanged with default values, we can run the tool. The tool will generate new raster incorporating the difference between the two rasters. In this case the output raster with sixteen classes will be generated, for instance Builtup to Barrenland, Builtup to Vegetation and so-on...
               </p>
             </div>
-            <div class="col-md-5 featurette-img">
+            <div class="col-md featurette-img">
               <img class="project-img" src="../public/images/output_raster.png" width="310" height="350" alt="To Raster">
             </div>
         </div>
       
         <hr class="featurette-divider">
 
-        <div class="row featurette">
-            <div class="col-md-7 order-md-2 featurette-content">
-              <h2 class="featurette-heading">Optional Parameters:</h2>
-              <p class="lead">
-                Apart from input rasters we can specify other optional parameters as mentioned below to further customize the output:<br />
-                <b>Filter Method: </b>To specify the type of changes to be incorporated in the output raster (All, Changed only & Unchanges only). <br />
-                <b>From & To Class(es): </b>To specify the classes that should be used while computing changes. <br />
-                <b>Classname Field: </b>To specify the class name field of input rasters.
-              </p>
-            </div>
-            <div class="col-md-5 order-md-1 featurette-img">
-              <img class="project-img" src="../public/images/parameters1.png" width="300" height="350" alt="To Raster">
-            </div>
-        </div>
-    
-        <hr class="featurette-divider">
-
+        
         <div class="row featurette">
             <div class="col-md-7 featurette-content">
                 <h2 class="featurette-heading">Output Raster: <span class="text-muted">(customized)</span></h2>
@@ -118,7 +123,7 @@
                     Here the same LULC rasters of Tiruppur has been used as the inputs. To know the urban sprawl we have chosen only Builtup class in To-Class(es) parameter while selecting all classes in From-Class(es). This will give us the output raster containing only the classes that have persisted or changed to Builtup in 2021 (i.e., Barrenland to Builtup, Vegetation to Builtup, Waterbodies to Builtup and Builtup to Builtup).
                 </p>
             </div>
-            <div class="col-md-5 featurette-img">
+            <div class="col-md featurette-img">
                 <img class="project-img" src="../public/images/output_raster2.png" width="300" height="350" alt="To Raster">
             </div>
         </div>
@@ -126,7 +131,7 @@
         <hr class="featurette-divider">
 
         <button class="project-content-button" title="View and Download-project">
-          <a class="button img-shadow" href="../src/watershed_delineator.html">Source code</a>
+          <a class="button img-shadow" target="_blank" href="https://github.com/raja-aravindh/Change-Analysis-tool">Source code</a>
         </button>
     
       </div>
@@ -147,7 +152,7 @@
           <li class="write">
             <h6>Write</h6>
             <p>
-              <a class="tel-mail" href="mailto:rajaaravindh0@gmail.com"> rajaaravindh0@gmail.com</a>
+              <a class="tel-mail" href="mailto:rajaaravindh4@gmail.com"> rajaaravindh4@gmail.com</a>
             </p>
           </li>
           <li class="connect">
