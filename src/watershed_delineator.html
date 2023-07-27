@@ -49,14 +49,14 @@
       <div class="container marketing project-page">
         <h1 class="project-title">Watershed Delineator Script Tool</h1>
         <p class="project-para">
-            At first this tool was built with ArcGIS Model-builder, later to increase the functionality it was converted to Python Script Tool which can be used in both ArcMap and ArcGIS Pro. As mentioned earlier the tool automates delineation of watershed basin(s) for the pour point if pour point is given, if not for the entire DEM image. For this case study the DEM image of Coimbatore District (Tamil Nadu, India) has been taken as input.
+            At first this tool was built with ArcGIS Model-builder, later to increase the functionality it was converted to Python Script Tool which can be used in both ArcMap and ArcGIS Pro. As mentioned earlier, the tool automates delineation of watershed basin(s) for the pour point if pour point is given, if not for the entire DEM image. For this case study the DEM image of Coimbatore District (Tamil Nadu, India) has been taken as input.
         </p>
         <hr class="featurette-divider">
         <div class="row featurette">
           <div class="col-md-12 featurette-content">
             <h2 class="featurette-heading">Flow Chart:</h2>
             <p class="lead">
-                As the tool combines various geoprocessing tools to automate repetitive task, the following flow chart will give you a brief idea on tools that have been used create this tool.
+                As the tool uses various geoprocessing tools to automate repetitive task, the following flow chart will give you a brief idea on tools that have been used create this tool.
             </p>
             <img class="featurette-img flowchart" src="../public/images/flowchart.png" alt="From Raster">
           </div>
@@ -105,7 +105,7 @@
     
         <div class="row featurette">
             <div class="col-md-7 featurette-content">
-              <h2 class="featurette-heading">Output Raster: <span class="text-muted">(Without pour point)</span></h2>
+              <h2 class="featurette-heading">Output Raster: <span class="text-muted">(With pour point)</span></h2>
               <p class="lead">
                 If the pour point is given, the tool will generate catchment or contributing area (i.e. watershed basin) for that particular point as an output raster, which can be converted into polygon by checking 'Convert output Raster to polygon' parameter.
               </p>
